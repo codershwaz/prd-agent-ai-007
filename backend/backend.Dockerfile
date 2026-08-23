@@ -1,4 +1,4 @@
-FROM python:3.15.0rc1-trixie
+FROM python:3.14.7-alpine3.24
 
 RUN python -m venv /opt/venv
 ENV PATH=/opt/venv/bin:$PATH
