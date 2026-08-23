@@ -30,9 +30,9 @@ services:
     develop:
       watch:
         - action: rebuild
-          path: /backend/requirements.txt
+          path: ./backend/requirements.txt
         - action: rebuild
-          path: /backend/backend.Dockerfile
+          path: ./backend/backend.Dockerfile
         - action: restart
           path: ./backend/src
 
