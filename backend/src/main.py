@@ -13,4 +13,4 @@ API_KEY = os.environ.get("API_KEY")
 
 @app.get("/")
 def read_index():
-    return {"text":"Hello from me", "myproject": MY_PROJECT, "apikey": API_KEY}
+    return {"text":"Hello from me", "myproject": MY_PROJECT}
